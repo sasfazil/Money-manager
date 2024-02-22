@@ -1,0 +1,153 @@
+/* Write your CSS here */
+.main-container,
+.sec-list-container,
+.third-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.first-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png");
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.main-heading {
+  color: #475569;
+  font-size: 28px;
+}
+
+.main-para {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-para-color {
+  color: #0b69ff;
+}
+
+.sec-list-container {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  max-width: 300px;
+}
+
+.third-container {
+  width: 100%;
+  max-width: 300px;
+  align-items: flex-start;
+}
+
+.add-transaction,
+.show-transaction {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 20px;
+  width: 100%;
+}
+
+.transaction-heading {
+  font-size: 20px;
+  color: #475569;
+}
+
+.title,
+.amount,
+.type {
+  color: #7e858e;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.title-input,
+.amount-input,
+.select-transaction {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  width: 100%;
+  border-radius: 2px;
+  outline: none;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  margin-top: 10px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.show-transaction-container {
+  border: 1px solid #cbd5e1;
+}
+
+.show-transaction-list-head {
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+  margin: 0;
+}
+
+.show-transaction-container-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 32px;
+  }
+  .main-para {
+    font-size: 20px;
+  }
+  .first-container,
+  .sec-list-container,
+  .third-container {
+    max-width: 80%;
+    text-align: start;
+  }
+  .sec-list-container {
+    flex-direction: row;
+  }
+  .third-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .add-transaction {
+    width: 90%;
+  }
+  .select-transaction {
+    width: 90%;
+  }
+  .transaction-heading {
+    font-size: 26px;
+  }
+  .title,
+  .amount,
+  .type,
+  .title-input,
+  .amount-input,
+  .select-transaction,
+  .add-btn,
+  .show-transaction-list-head {
+    font-size: 20px;
+  }
+}

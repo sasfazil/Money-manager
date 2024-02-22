@@ -1,0 +1,32 @@
+.show-transaction-list {
+  display: flex;
+  padding: 0 10px;
+  border-top: 1px solid #cbd5e1;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #475569;
+}
+.del-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.del-img {
+  width: 20px;
+}
+
+.del-btn {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .show-transaction-list {
+    font-size: 18px;
+  }
+  .del-img {
+    width: 25px;
+  }
+}

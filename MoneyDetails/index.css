@@ -1,0 +1,57 @@
+/* Write your CSS here */
+
+.list-container {
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+  padding: 20px;
+  width: 100%;
+}
+
+.first-list {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.sec-list {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+  margin: 20px 0;
+}
+
+.third-list {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+
+.list-img {
+  width: 20%;
+}
+
+.details-list {
+  margin-left: 10px;
+}
+
+.about {
+  color: #7e858e;
+  font-size: 14px;
+}
+
+.about-amount {
+  color: #334155;
+}
+
+@media screen and (min-width: 768px) {
+  .sec-list {
+    margin: 0 10px;
+  }
+  .about {
+    font-size: 22px;
+  }
+  .about-amount {
+    font-size: 27px;
+  }
+  .list-img {
+    width: 40%;
+  }
+}
